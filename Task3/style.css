@@ -1,0 +1,52 @@
+body{
+    background-color: chocolate;
+}
+
+.head{
+    color: darkblue;
+}
+
+h1{
+    font-size: small;
+}
+
+/* h2, h4{
+    font-size: larger;
+} */
+
+#bglime{
+    background-color: lime;
+}
+
+p{
+    color: white;
+}
+
+#headInH2{
+    color: red;
+}
+
+#para{
+    color: green;
+}
+
+#paraInP2{
+    color: black;
+    font-size: larger;
+}
+
+ul > section > li > span{
+    background-color: yellow;
+}
+
+ul > section > article > li > span{
+    background-color: rgb(96, 77, 179);
+}
+
+ol > section > li{
+    color: blue;
+}
+
+ol > article > li{
+    color: red;
+}
