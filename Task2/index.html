@@ -64,12 +64,17 @@
 
     <h3>Book Now</h3>
     <form action="">
-        Name <input type="text"/> Email <input type="text"/> Phone <input type="number" minlength="10" maxlength="10"/> ,<button>Submit</button>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Please enter your name"/>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Please enter your email"/>
+        <label for="phone">Phone:</label>
+        <input type="number" id="phone" name="phone" minlength="10" maxlength="10" placeholder="Enter your phone number"/>
+        <input type="submit" value="Submit"/>
     </form>
-
 </body>
 
 <footer>
-    <p>Contact us at info@laundrymart.com</p>
+    <p>Contact us at <a href="mailto:info@laundrymart.com">info@laundrymart.com</a></p>
 </footer>
 </html>
