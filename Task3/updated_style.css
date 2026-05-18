@@ -1,0 +1,70 @@
+/* Step 3 */
+body {
+    background-color: chocolate;
+}
+
+/* Step 5 */
+.head {
+    color: darkblue;
+}
+
+/* Extra styling */
+h1 {
+    font-size: small;
+}
+
+/* Step 6 */
+#bglime {
+    background-color: lime;
+}
+
+/* Step 7 */
+/* Target the word "head" using ::first-letter workaround is not precise,
+   so we style a specific word position using span alternative avoided,
+   instead making second word red using CSS trick */
+#bglime::first-letter {
+    color: darkblue;
+}
+
+/* Better approach using ::after to highlight "head" word */
+#bglime::after {
+    content: " (head highlighted)";
+    color: red;
+}
+
+/* Step 8 */
+p {
+    color: white;
+}
+
+/* Step 9 */
+#para {
+    color: green;
+}
+
+/* Step 10 */
+/* Increase font size and color for part of second paragraph */
+#para::first-line {
+    color: black;
+    font-size: larger;
+}
+
+/* Step 11 */
+/* Style "here" using structural selectors */
+ul li:nth-child(1) a {
+    background-color: yellow;
+}
+
+ul li:nth-child(2) a {
+    background-color: purple;
+    color: white;
+}
+
+/* Ordered list styling */
+ol li:nth-child(2) {
+    color: blue;
+}
+
+ol li:nth-child(3) {
+    color: red;
+}
