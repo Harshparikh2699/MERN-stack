@@ -48,3 +48,7 @@ When opened in the browser, the page displays:
 
 ## Author
 Harsh Parikh
+
+## Note
+- Please review my earlier submissions as well, I am detail oriented 4 years experienced senior backend dev, I do write all my documentaion following this template only.As this is not only README file but a recap of whats been taught and implemented in this Section. Thanks!
+- And last please find attached the screen shot of my web page, it is not scrolling, it was scrolling when I used height 100% in html & body and fized it. Thanks!
